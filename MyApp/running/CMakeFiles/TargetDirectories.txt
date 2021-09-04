@@ -1,0 +1,3 @@
+/home/anangpras/Videos/Pemrograman/C++/ObjectOriented/GUI/Compiler-CMAKE/MyApp/running/CMakeFiles/rebuild_cache.dir
+/home/anangpras/Videos/Pemrograman/C++/ObjectOriented/GUI/Compiler-CMAKE/MyApp/running/CMakeFiles/edit_cache.dir
+/home/anangpras/Videos/Pemrograman/C++/ObjectOriented/GUI/Compiler-CMAKE/MyApp/running/CMakeFiles/MyApp.dir

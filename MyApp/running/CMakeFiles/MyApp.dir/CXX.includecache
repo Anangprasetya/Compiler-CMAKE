@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/anangpras/Videos/Pemrograman/C++/ObjectOriented/GUI/Compiler-CMAKE/MyApp/mainfile.cpp
+iostream
+-
+
