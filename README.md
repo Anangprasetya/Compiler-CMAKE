@@ -32,3 +32,50 @@ Untuk menjalankan executablenya lakukan perintah dibawah ini.
 Untuk download, saya menggunakan `Linux Ubuntu` untuk contoh kali ini. [Download wxWidgets](https://www.wxwidgets.org/downloads/), atau langsung source [Download Source](https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.5/wxWidgets-3.1.5.tar.bz2)
 
 _Note_ : Link diatas adalah menuju ke situs resmi dari wxWidgets. File yang sudah terdownload secara default masuk ke folder `/home/youruser/Downloads` atau folder **Downloads**
+
+## Persiapan Sebelum Install
+
+Beberapa yang harus di install sebelum install _wxWidgets_ adalah
+
+- Compiler C++ itu sendiri
+- Library (package) untuk _wxWidgets_
+
+### Cek Compiler C++ & Install
+
+#### Cek Compiler
+
+Untuk mengecek compiler C++ yaitu G++ silahkan buka terminal dan ketik code berikut
+
+```sh
+dpkg -l build-essentials
+```
+
+Jika muncul gambar seperti dibawah, maka compiler C++ sudah ada dan tidak perlu install. Dan jika belum maka install dengan cara seperti dibawah
+
+#### Install Compiler
+
+Buka terminal ketikkan
+
+```sh
+sudo apt update
+```
+
+```sh
+sudo apt-get update
+```
+
+```sh
+sudo apt upgrade
+```
+
+```sh
+sudo apt-get upgrade
+```
+
+Dan lalu install Compiler
+
+```sh
+sudo apt install build-essentials
+```
+
+Lalu cek kembali dengan cara seperti diatas.
