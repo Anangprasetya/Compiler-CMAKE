@@ -24,3 +24,11 @@ Untuk menjalankan executablenya lakukan perintah dibawah ini.
 ```sh
 ./running/MyApp
 ```
+
+# Download & Install wxWidgets
+
+## Download
+
+Untuk download, saya menggunakan `Linux Ubuntu` untuk contoh kali ini. [Download wxWidgets](https://www.wxwidgets.org/downloads/), atau langsung source [Download Source](https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.5/wxWidgets-3.1.5.tar.bz2)
+
+_Note_ : Link diatas adalah menuju ke situs resmi dari wxWidgets. File yang sudah terdownload secara default masuk ke folder `/home/youruser/Downloads` atau folder **Downloads**
