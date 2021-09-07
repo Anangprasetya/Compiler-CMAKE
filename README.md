@@ -52,6 +52,9 @@ dpkg -l build-essentials
 
 Jika muncul gambar seperti dibawah, maka compiler C++ sudah ada dan tidak perlu install. Dan jika belum maka install dengan cara seperti dibawah
 
+gambar jika sudah terinstall
+[![Gambar Cek Compiler](https://github.com/Anangprasetya/Compiler-CMAKE/blob/main/cek-compiler.png)](https://github.com/Anangprasetya/Compiler-CMAKE)
+
 #### Install Compiler
 
 Buka terminal ketikkan
