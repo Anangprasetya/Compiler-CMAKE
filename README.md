@@ -82,3 +82,32 @@ sudo apt install build-essentials
 ```
 
 Lalu cek kembali dengan cara seperti diatas.
+
+
+### Cek dan Install Library wxWidgets
+#### Cek Library
+Untuk yang menggunakan .deb gunakan perintah dibawah ini
+```sh
+dpkg -l libgtk2.0-dev
+```
+Untuk yang .rpm gunakan perintah dibawah ini
+```sh
+dpkg -l libgtk-3-dev
+```
+
+Jika muncul gambar dibawah ini, maka library sudah terinstall. Dan jika belum silahkan install dengan cara yang ada dibawah ini
+
+
+#### Install Library wxWidgets
+Jalankan seperti perintah saat menginstal compiler diatas yaitu apt update dan upgrade, lalu apt-get update dan upgrade. Setelah itu install library dengan perintah dibawah ini:
+
+Untuk .deb
+```sh
+sudo apt install libgtk2.0-dev
+```
+Untuk .rpm
+```sh
+sudo apt install libgtk-3-dev
+```
+
+Lalu jangan lupa untuk cek kembali seperti cara diatas
