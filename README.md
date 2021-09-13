@@ -97,6 +97,10 @@ dpkg -l libgtk-3-dev
 
 Jika muncul gambar dibawah ini, maka library sudah terinstall. Dan jika belum silahkan install dengan cara yang ada dibawah ini
 
+gambar jika sudah terinstall
+[![Gambar Cek Library](https://github.com/Anangprasetya/Compiler-CMAKE/blob/main/cek-library.png)](https://github.com/Anangprasetya/Compiler-CMAKE)
+
+
 
 #### Install Library wxWidgets
 Jalankan seperti perintah saat menginstal compiler diatas yaitu apt update dan upgrade, lalu apt-get update dan upgrade. Setelah itu install library dengan perintah dibawah ini:
