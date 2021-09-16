@@ -115,3 +115,39 @@ sudo apt install libgtk-3-dev
 ```
 
 Lalu jangan lupa untuk cek kembali seperti cara diatas
+
+
+
+
+## Install wxWidgets
+Setelah `Compiler C++` dan `Library wxWidgets` **terinstall**, maka selanjutnya adalah kita menginstall wxWidgets dengan cara :
+- Lakukan apt dan apt-get update dan upgrade
+- Extract file
+- Lalu ketik perintah dibawah ini
+```sh
+cd Downloads/wxWidgets-3.0.5
+```
+
+```sh
+mkdir gtk-build
+```
+
+```sh
+cd gtk-build
+```
+
+```sh
+../configure
+```
+
+```sh
+make -j3
+```
+
+```sh
+sudo make install
+```
+
+```sh
+sudo ldconfig
+```
