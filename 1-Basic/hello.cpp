@@ -69,5 +69,5 @@ void MyFrame::OnHello(wxCommandEvent& event)
          Tahun       : 2021
          Pembuat     : Anang Nur Prasetya
          OS          : Linux Ubuntu
-         Pembahasa   : Basic (struktur program wxWidgets)
+         Materi      : Basic (struktur program wxWidgets)
 */

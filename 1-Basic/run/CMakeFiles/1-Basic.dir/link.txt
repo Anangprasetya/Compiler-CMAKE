@@ -1,0 +1,1 @@
+/usr/bin/c++   -pthread  -rdynamic CMakeFiles/1-Basic.dir/hello.cpp.o  -o 1-Basic   -L/usr/local/lib  -Wl,-rpath,/usr/local/lib -L/usr/local/lib -pthread -lwx_gtk2u_aui-3.0 -lwx_gtk2u_adv-3.0 -lwx_gtk2u_html-3.0 -lwx_baseu_net-3.0 -lwx_gtk2u_richtext-3.0 -lwx_gtk2u_core-3.0 -lwx_baseu-3.0 
